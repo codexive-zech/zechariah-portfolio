@@ -1,6 +1,7 @@
 import React from "react";
 import heroImg from "../images/hero-img.jpeg";
 import SocialLinks from "./SocialLinks";
+import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
@@ -12,12 +13,16 @@ const Hero = () => {
           <article className="hero-info">
             <div className="underline"></div>
             <h1>Hi, I'm Zechariah Hounwanou</h1>
-            <h4>Freelance Web Developer and UI/UX Designer</h4>
-            <a href="contact.html" className="btn hero-btn">
+            <h4>
+              I am a Frontend Engineer and Digital Marketer currently based in
+              Lagos, Nigeria. I enjoy solving users' problems and turning
+              designs into user friendly applications
+            </h4>
+            <Link to="/contact" className="btn hero-btn">
               Hire Me
-            </a>
+            </Link>
             {/* <!-- Sidebar Social Icon --> */}
-            <ul className="social-icons hero-icons">
+            <ul className="social-icons hero-icons white">
               <SocialLinks />
             </ul>
           </article>

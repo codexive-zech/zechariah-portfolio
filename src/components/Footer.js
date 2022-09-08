@@ -8,7 +8,7 @@ const Footer = () => {
       {/* <!-- footer --> */}
       <footer class="footer">
         <ul class="social-icons">
-          <SocialLinks />
+          <SocialLinks color={"white"} />
         </ul>
         <p>
           &copy; <span>{date}</span>. All rights reserved. Zechariah Hounwanou.

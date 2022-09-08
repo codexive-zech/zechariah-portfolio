@@ -4,18 +4,14 @@ const navLinks = [
     path: "/",
     text: "Home",
   },
+
   {
     id: 2,
-    path: "/about",
-    text: "About",
-  },
-  {
-    id: 3,
     path: "/projects",
     text: "Project",
   },
   {
-    id: 4,
+    id: 3,
     path: "/contact",
     text: "Contact",
   },
