@@ -18,7 +18,7 @@ const Hero = () => {
               Lagos, Nigeria. I enjoy solving users' problems and turning
               designs into user friendly applications
             </h4>
-            <Link to="/contact" className="btn hero-btn">
+            <Link to="/contact" className="hire-btn">
               Hire Me
             </Link>
             {/* <!-- Sidebar Social Icon --> */}

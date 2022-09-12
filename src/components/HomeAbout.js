@@ -5,17 +5,17 @@ import aboutPersonImg from "../images/about-img.jpeg";
 
 const HomeAbout = () => {
   return (
-    <section class="section about">
-      <div class="section-center about-center">
+    <section className="section about">
+      <div className="section-center about-center">
         {/* About Img */}
-        <article class="about-img">
-          <img src={aboutPersonImg} class="hero-photo" alt="" />
+        <article className="about-img">
+          <img src={aboutPersonImg} className="hero-photo" alt="" />
         </article>
         {/* About Info */}
-        <article class="about-info">
+        <article className="about-info">
           {/* Section Title */}
-          <h2 class="section-title about-title">About</h2>
-          <div class="underline about-underline"></div>
+          <h2 className="section-title about-title">About</h2>
+          <div className="underline about-underline"></div>
           {/* End of Section Title */}
           <p>
             Hello! My name is Zechariah and I enjoy creating things that live on
@@ -34,7 +34,7 @@ const HomeAbout = () => {
             project. I enjoy solving users' problems, and I love working with a
             team to achieve a common goal.
           </p>
-          <Link to="/contact" class="btn">
+          <Link to="/contact" className="hire-btn">
             Hire Me
           </Link>
         </article>

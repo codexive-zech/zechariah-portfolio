@@ -1,12 +1,26 @@
-import React from "react";
+import React, { useEffect } from "react";
 import logo from "../images/logo.svg";
 import { FaAlignRight } from "react-icons/fa";
 import navLinks from "../utils/navLinks";
 import { Link } from "react-router-dom";
 import { useDispatch } from "react-redux";
 import { toggleSidebar } from "../features/navbar/navbarSlice";
+
 const Navbar = () => {
   const dispatch = useDispatch();
+
+  useEffect(() => {
+    const scrollNav = () => {
+      const navbar = document.querySelector(".nav");
+      if (window.pageYOffset > 80) {
+        navbar.classList.add("navbar-fixed");
+      } else {
+        navbar.classList.remove("navbar-fixed");
+      }
+    };
+    window.addEventListener("scroll", scrollNav);
+    return () => window.removeEventListener("scroll", scrollNav);
+  }, []);
   return (
     <>
       <nav className="nav">

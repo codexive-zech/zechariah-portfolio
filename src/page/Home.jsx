@@ -1,5 +1,5 @@
-import React from "react";
-import { Hero, HomeAbout, Service, Experience } from "../components";
+import React, { useEffect } from "react";
+import { Hero, HomeAbout, Service, Experience, Slider } from "../components";
 
 const Home = () => {
   return (
@@ -8,6 +8,7 @@ const Home = () => {
       <HomeAbout />
       <Service />
       <Experience />
+      <Slider />
     </>
   );
 };
