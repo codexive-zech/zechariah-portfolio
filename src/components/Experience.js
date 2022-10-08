@@ -22,6 +22,7 @@ const Experience = () => {
                 key={index}
                 onClick={() => setValue(index)} // set the new value state as the index
                 className={`job-btn ${index === value && "active-btn"}`} // make active-btn class possible as long as index and value are same
+                style={{ fontSize: "1.2rem" }}
               >
                 {item.company}
               </button>
