@@ -1,6 +1,5 @@
 import React from "react";
 import socialLinks from "../utils/socialLinks";
-import { Link } from "react-router-dom";
 
 const SocialLinks = () => {
   return (
@@ -9,9 +8,9 @@ const SocialLinks = () => {
         const { id, path, icon } = socialLink;
         return (
           <li key={id}>
-            <Link to={path} className="social-icon">
+            <a href={path} className="social-icon">
               {icon}
-            </Link>
+            </a>
           </li>
         );
       })}

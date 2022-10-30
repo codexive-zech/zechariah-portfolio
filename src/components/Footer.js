@@ -11,7 +11,8 @@ const Footer = () => {
           <SocialLinks color={"white"} />
         </ul>
         <p>
-          &copy; <span>{date}</span>. All rights reserved. Zechariah Hounwanou.
+          &copy; <span>{date}</span>. Designed &amp; Developed by Zechariah
+          Hounwanou.
         </p>
       </footer>
       {/* <!-- end of Footer -->  */}

@@ -1,7 +1,8 @@
 import React from "react";
-import heroImg from "../images/hero-img.jpeg";
+import profileImg from "../images/profile-image.jpg";
 import SocialLinks from "./SocialLinks";
 import { Link } from "react-router-dom";
+import resume from "../asset/ZechariahResume.pdf";
 
 const Hero = () => {
   return (
@@ -18,7 +19,7 @@ const Hero = () => {
               Lagos, Nigeria. I enjoy solving users' problems and turning
               designs into user friendly applications
             </h4>
-            <Link to="/contact" className="hire-btn">
+            <Link to={resume} className="hire-btn">
               Hire Me
             </Link>
             {/* <!-- Sidebar Social Icon --> */}
@@ -28,7 +29,7 @@ const Hero = () => {
           </article>
           {/* <!-- Hero Img --> */}
           <article className="hero-img">
-            <img src={heroImg} className="hero-photo" alt="" />
+            <img src={profileImg} className="hero-photo" alt="" />
           </article>
         </div>
       </header>

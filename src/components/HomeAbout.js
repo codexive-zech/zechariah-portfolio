@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
-import aboutPersonImg from "../images/about-img.jpeg";
+import resume from "../asset/ZechariahResume.pdf";
+import aboutPersonImg from "../images/second-image.jpeg";
 
 const HomeAbout = () => {
   return (
@@ -34,7 +34,7 @@ const HomeAbout = () => {
             project. I enjoy solving users' problems, and I love working with a
             team to achieve a common goal.
           </p>
-          <Link to="/contact" className="hire-btn">
+          <Link to={resume} className="hire-btn">
             Hire Me
           </Link>
         </article>

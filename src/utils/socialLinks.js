@@ -1,24 +1,24 @@
-import { FaFacebook, FaInstagram, FaTwitter, FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaInstagram, FaTwitter, FaLinkedin } from "react-icons/fa";
 
 const socialLinks = [
   {
     id: 1,
-    path: "https://twitter.com/codexive_zech",
-    icon: <FaFacebook />,
+    path: "https://github.com/codexive-zech",
+    icon: <FaGithub />,
   },
   {
     id: 2,
-    path: "www.twitter.com/codexive_zech",
+    path: "https://twitter.com/codexive_zech",
     icon: <FaTwitter />,
   },
   {
     id: 3,
-    path: "www.twitter.com/codexive_zech",
+    path: "https://www.linkedin.com/in/zechariah-houwanou/",
     icon: <FaLinkedin />,
   },
   {
     id: 4,
-    path: "www.twitter.com/codexive_zech",
+    path: "https://www.instagram.com/codexive_zech/",
     icon: <FaInstagram />,
   },
 ];

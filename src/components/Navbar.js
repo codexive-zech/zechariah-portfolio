@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import logo from "../images/logo.svg";
+import logo from "../images/Logo.png";
 import { FaAlignRight } from "react-icons/fa";
 import navLinks from "../utils/navLinks";
 import { Link } from "react-router-dom";
