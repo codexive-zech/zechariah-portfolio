@@ -19,7 +19,7 @@ const Projects = () => {
           {projects.map((project) => {
             const { id, url, name, image, description } = project;
             return (
-              <a href={url} key={id}>
+              <a href={url} key={id} target="_blank" rel="noreferrer">
                 <article className="single-project">
                   <div className="project-container project-link">
                     {/* Img  */}

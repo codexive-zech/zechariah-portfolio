@@ -2,7 +2,6 @@ import React from "react";
 import { FaTimesCircle } from "react-icons/fa";
 import { useSelector } from "react-redux";
 import navLinks from "../utils/navLinks";
-import { Link } from "react-router-dom";
 import { useDispatch } from "react-redux";
 import { toggleSidebar } from "../features/navbar/navbarSlice";
 import SocialLinks from "./SocialLinks";
@@ -27,7 +26,9 @@ const Sidebar = () => {
               const { id, path, text } = navLink;
               return (
                 <li key={id} onClick={() => dispatch(toggleSidebar())}>
-                  <Link to={path}>{text}</Link>
+                  <a href={path} target="_blank" rel="noreferrer">
+                    {text}
+                  </a>
                 </li>
               );
             })}

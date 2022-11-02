@@ -8,7 +8,12 @@ const SocialLinks = () => {
         const { id, path, icon } = socialLink;
         return (
           <li key={id}>
-            <a href={path} className="social-icon">
+            <a
+              href={path}
+              className="social-icon"
+              target="_blank"
+              rel="noreferrer"
+            >
               {icon}
             </a>
           </li>

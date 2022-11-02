@@ -1,7 +1,6 @@
 import React from "react";
 import profileImg from "../images/profile-image.jpg";
 import SocialLinks from "./SocialLinks";
-import { Link } from "react-router-dom";
 import resume from "../asset/ZechariahResume.pdf";
 
 const Hero = () => {
@@ -19,9 +18,14 @@ const Hero = () => {
               Lagos, Nigeria. I enjoy solving users' problems and turning
               designs into user friendly applications
             </h4>
-            <Link to={resume} className="hire-btn">
+            <a
+              href={resume}
+              className="hire-btn"
+              target="_blank"
+              rel="noreferrer"
+            >
               Hire Me
-            </Link>
+            </a>
             {/* <!-- Sidebar Social Icon --> */}
             <ul className="social-icons hero-icons white">
               <SocialLinks />

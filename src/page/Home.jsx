@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { Hero, HomeAbout, Service, Experience } from "../components";
 
 const Home = () => {

@@ -811,6 +811,7 @@ Footer
   font-size: 1.25rem;
   color: var(--clr-white);
   text-transform: capitalize;
+  text-align: center;
 }
 /*
 =============== 
