@@ -16,7 +16,7 @@ const jobs = [
   {
     id: 2,
     company: "Zuri Team, Inc.",
-    date: "April 2022 to July 2022",
+    date: "March 2022 to July 2022",
     duties: [
       "Converted a Photoshop mockups into semantic HTML/CSS, utilized JavaScript to add behavior, user events and modify the DOM.",
       "Implemented Browser Fetch API request to fetch 3rd party data and use on the frontend.",
@@ -30,7 +30,7 @@ const jobs = [
   {
     id: 3,
     company: "So TechAfrica",
-    date: "Febuary 2021 to March 2022.",
+    date: "February 2021 to March 2022.",
     duties: [
       "Led the marketing department in a coordinate effort to hit the yearly revenue target. Used both Online and Offline strategies. Tactics: Facebook Ads, Instagram Ads and Distributorship Program",
       "Created A/B testing plans for Social Media Paid Ads (ad copy, ad creative, target audience etc) leading to an improvement in the ROI",
