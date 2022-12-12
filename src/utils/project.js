@@ -3,9 +3,18 @@ import moviesApp from "../images/movies-app.png";
 import jobstrApp from "../images/jobstr.png";
 import tintShadeColor from "../images/tint-shade-color.png";
 import liliesFood from "../images/lilies-food.png";
+import nikeSneakers from "../images/Nike-Dropshipping-Store.png";
 const projects = [
   {
     id: 1,
+    url: "https://nikesneakr.netlify.app/",
+    image: nikeSneakers,
+    name: "Nike Sneakers Store",
+    description:
+      "Nike Sneaker Store is a Dropshipping store for Sneakers, which enable users view available sneakers and purchase them easily from their comfort zone.",
+  },
+  {
+    id: 2,
     url: "https://jobstr.netlify.app/",
     image: jobstrApp,
     name: "Jobster",
@@ -14,7 +23,7 @@ const projects = [
   },
 
   {
-    id: 2,
+    id: 3,
     url: "https://homeysoft.netlify.app/",
     image: homeySoftStore,
     name: "Homey Soft Store",
@@ -23,7 +32,7 @@ const projects = [
   },
 
   {
-    id: 3,
+    id: 4,
     url: "https://chic-movies.netlify.app",
     image: liliesFood,
     name: "Lilies Food App",
@@ -31,7 +40,7 @@ const projects = [
       "Lilies Food is a food ordering app which allows users to order for delicious meals they are craving for and have it delivered to them.",
   },
   {
-    id: 4,
+    id: 5,
     url: "https://chic-movies.netlify.app",
     image: moviesApp,
     name: "Chic Movies App",
@@ -39,7 +48,7 @@ const projects = [
       "Chic Movies is a free movie app where user can find most of the latest movies, top rated movies as well as the upcoming movies so as to always be closer to movies.",
   },
   {
-    id: 5,
+    id: 6,
     url: "https://lightanddarkcolorgen.netlify.app",
     image: tintShadeColor,
     name: "Tint and Shades Color",
