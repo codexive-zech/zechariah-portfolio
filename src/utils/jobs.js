@@ -1,6 +1,18 @@
 const jobs = [
   {
     id: 1,
+    company: "HNG.",
+    date: "October 2022 to December 2022.",
+    duties: [
+      "Wrote Maintainable and Reusable React UI Components utilizing Tailwind CSS for Styling.",
+      "Implemented React Memoization API to prevent unnecessary rerender of functional components.",
+      "Integrated a Payment Gateway (Paystack Payment UI) in other to make Online Payments Easy.",
+      "Implemented Code-Splitting and Lazy Loading to split code into smaller chunks in other to improve performance.",
+      "Used a Git Version Control System to track changes to code and collaborate with other developers in the team.",
+    ],
+  },
+  {
+    id: 2,
     company: "SideHustle NG.",
     date: "July 2022 to September 2022.",
     duties: [
@@ -14,7 +26,7 @@ const jobs = [
     ],
   },
   {
-    id: 2,
+    id: 3,
     company: "Zuri Team, Inc.",
     date: "March 2022 to July 2022",
     duties: [
@@ -28,7 +40,7 @@ const jobs = [
     ],
   },
   {
-    id: 3,
+    id: 4,
     company: "So TechAfrica",
     date: "February 2021 to March 2022.",
     duties: [
@@ -41,7 +53,7 @@ const jobs = [
     ],
   },
   {
-    id: 4,
+    id: 5,
     company: "Setnumd Technologies",
     date: "May 2019 to October 2019",
     duties: [
